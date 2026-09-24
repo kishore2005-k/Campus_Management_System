@@ -12,8 +12,8 @@ public class Student{
     static int studentCount=0;
 
     //Default constructor
-    public student(){
-        studntCount++;
+    public Student(){
+        studentCount++;
     }
 
     // parameterized constructor
