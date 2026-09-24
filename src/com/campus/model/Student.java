@@ -1,6 +1,6 @@
 package com.campus.model;
 
-public class Student{
+public abstract class Student{
     
     private int studentid;
     private String studentname;
@@ -73,6 +73,9 @@ public class Student{
             System.out.println("Marks: "+java.util.Arrays.toString(marks));
         }
     }
+
+    //abstract method
+    public abstract void StudentType();
 
     //static methods-belongs to class,not to object
     public static void displayStudentCount(){
