@@ -21,5 +21,15 @@ public class ScholarshipStudent extends Student {
     public void StudentType() {
         System.out.println("This is a Scholarship Student.");
     }
+    @Override
+    public void displayStudentInfo() {
+        super.displayStudentInfo();
+        System.out.println("Scholarship Percentage: " + scholarshipPercentage);
+    }
+    @Override
+    public void displayStudentInfo(boolean showMarks) {
+        super.displayStudentInfo(showMarks);
+        
+    }
 
 }
