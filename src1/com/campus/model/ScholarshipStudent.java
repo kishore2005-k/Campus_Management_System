@@ -32,11 +32,11 @@ public class ScholarshipStudent extends Student {
         
     }
     @Override
-    public void generateReport() {
+    public void generatereport() {
         System.out.println("Scholarship student report card");
     }
     @Override 
-    public void eligibleForScholarship() {
+    public void eligibleforScholarship() {
         System.out.println(" Eligible for scholarship.");
     }
 
