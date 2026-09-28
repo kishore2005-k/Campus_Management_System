@@ -26,7 +26,10 @@ public class Main
             marks[i]=sc.nextInt();
             sc.nextLine();
         }
-        Student student=new Student(studenrid, studentname, age, department, marks);
+        System.out.println("Enter the scholarship percentage");
+        double scholarshipPercentage=sc.nextDouble();
+        sc.nextLine();
+        Student student=new ScholarshipStudent(studenrid, studentname, age, department, marks, scholarshipPercentage);
         student.displaystudentInfo(true);
         Student.displayStudentCount();
         Studentservice studentservice=new Studentservice();
