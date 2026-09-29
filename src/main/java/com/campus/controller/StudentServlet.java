@@ -16,7 +16,11 @@ public class StudentServlet extends HttpServlet {
 
     @Override 
     public void doGet(HttpServletRequest request,HttpServletResponse responce)
-            throws IOException{
+            throws IOException, ServletException{
+                var students = studentService.getStudents();
+                request.setAttribute("students", students);
+                RequestDispatcher dispatcher = request.getRequestDispatcher("/Student.jsp");
+                dispatcher.forward(request, responce);
        
     }
 
