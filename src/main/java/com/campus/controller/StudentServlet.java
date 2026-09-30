@@ -28,8 +28,10 @@ public class StudentServlet extends HttpServlet {
     public void doPost(HttpServletRequest request,HttpServletResponse responce)
             throws IOException{
         String name = request.getParameter("name");
-        String course = request.getParameter("course");
-        studentService.addStudent(name, course);
+        String department = request.getParameter("department");
+        String ageParam = request.getParameter("age");
+        int age = Integer.parseInt(ageParam);
+        studentService.addStudent(name, department, age);
         responce.sendRedirect("/students");
     }
 
