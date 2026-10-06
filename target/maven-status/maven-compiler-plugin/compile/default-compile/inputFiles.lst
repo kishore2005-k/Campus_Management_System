@@ -1,7 +1,11 @@
 C:\kishore_repos\Campus_Management_System\src\main\java\com\campus\controller\StudentServlet.java
+C:\kishore_repos\Campus_Management_System\src\main\java\com\campus\dao\StudentJPADAO.java
+C:\kishore_repos\Campus_Management_System\src\main\java\com\campus\Util\JPAUtil.java
 C:\kishore_repos\Campus_Management_System\src\main\java\com\campus\dao\StudentDAO.java
 C:\kishore_repos\Campus_Management_System\src\main\java\com\campus\Model\Student.java
+C:\kishore_repos\Campus_Management_System\src\main\java\com\campus\dao\DepartmentJPADAO.java
 C:\kishore_repos\Campus_Management_System\src\main\java\com\campus\services\StudentService.java
+C:\kishore_repos\Campus_Management_System\src\main\java\com\campus\Model\Department.java
 C:\kishore_repos\Campus_Management_System\src\main\java\com\campus\controller\SessionServlet.java
 C:\kishore_repos\Campus_Management_System\src\main\java\com\campus\Filter\LoggingFilter.java
 C:\kishore_repos\Campus_Management_System\src\main\java\com\campus\listener\CampusSession.java

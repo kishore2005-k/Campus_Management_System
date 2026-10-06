@@ -1,4 +1,4 @@
-package com.campus.Util;
+package com.campus.util;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
