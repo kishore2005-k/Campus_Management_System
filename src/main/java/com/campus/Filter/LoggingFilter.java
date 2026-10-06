@@ -1,4 +1,4 @@
-package com.campus.Filter;
+package com.campus.filter;
 
 import jakarta.servlet.annotation.WebFilter;
 import jakarta.servlet.http.HttpFilter;
